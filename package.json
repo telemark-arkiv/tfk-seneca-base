@@ -1,0 +1,40 @@
+{
+  "name": "tfk-seneca-base",
+  "version": "1.0.0",
+  "description": "Our base for seneca services",
+  "license": "MIT",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "bugs": {
+    "url": "https://github.com/telemark/tfk-seneca-base/issues"
+  },
+  "homepage": "https://github.com/telemark/tfk-seneca-base",
+  "main": "service.js",
+  "engines": {
+    "node": ">=4.4.2"
+  },
+  "scripts": {
+    "test": "standard && tap --reporter=spec test/*.js",
+    "coverage": "tap test/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
+    "start": "node service.js",
+    "setup": "npm install && node setup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/telemark/tasks-collector.git"
+  },
+  "devDependencies": {
+    "coveralls": "2.11.9",
+    "standard": "6.0.8",
+    "tap": "5.7.1"
+  },
+  "dependencies": {
+    "seneca": "2.0.1",
+    "seneca-balance-client": "0.4.0",
+    "seneca-mesh": "0.7.0"
+  }
+}
