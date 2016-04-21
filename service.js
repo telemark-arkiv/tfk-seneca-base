@@ -2,7 +2,6 @@
 
 var Seneca = require('seneca')
 var Mesh = require('seneca-mesh')
-
 var envs = process.env
 var options = {
   seneca: {
