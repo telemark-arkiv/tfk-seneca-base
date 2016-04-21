@@ -11,11 +11,11 @@ $ docker build -t tfk-seneca-base .
 Start
 
 ```
-$ docker run -d --name tfk-seneca-base tfk-seneca-base
+$ docker run -d --net host --name tfk-seneca-base tfk-seneca-base
 ```
 
 From hub.docker.com
 
 ```
-$ docker run -d --name tfk-seneca-base telemark/tfk-seneca-base
+$ docker run -d --net host --name tfk-seneca-base telemark/tfk-seneca-base
 ```
