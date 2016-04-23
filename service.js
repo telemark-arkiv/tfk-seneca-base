@@ -14,3 +14,4 @@ var options = {
 
 Seneca(options.seneca)
   .use(Mesh, options.mesh)
+  .use('entity')
