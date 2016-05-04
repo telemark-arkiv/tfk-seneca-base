@@ -1,6 +1,6 @@
 {
   "name": "tfk-seneca-base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Our base for seneca services",
   "license": "MIT",
   "author": {
@@ -14,7 +14,7 @@
   "homepage": "https://github.com/telemark/tfk-seneca-base",
   "main": "service.js",
   "engines": {
-    "node": ">=4.4.2"
+    "node": ">=4.4.3"
   },
   "scripts": {
     "test": "standard && tap --reporter=spec test/*.js",
