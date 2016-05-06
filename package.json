@@ -1,6 +1,6 @@
 {
   "name": "tfk-seneca-base",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Our base for seneca services",
   "license": "MIT",
   "author": {
@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "coveralls": "2.11.9",
-    "standard": "6.0.8",
+    "standard": "7.0.1",
     "tap": "5.7.1"
   },
   "dependencies": {
