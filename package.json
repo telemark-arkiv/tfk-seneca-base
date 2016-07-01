@@ -30,7 +30,7 @@
   "devDependencies": {
     "coveralls": "2.11.9",
     "standard": "7.1.2",
-    "tap": "5.7.3"
+    "tap": "6.0.0"
   },
   "dependencies": {
     "seneca": "2.1.0",
