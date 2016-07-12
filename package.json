@@ -28,7 +28,7 @@
     "url": "git://github.com/telemark/tasks-collector.git"
   },
   "devDependencies": {
-    "coveralls": "2.11.9",
+    "coveralls": "2.11.10",
     "standard": "7.1.2",
     "tap": "6.1.1"
   },
