@@ -1,6 +1,6 @@
 {
   "name": "tfk-seneca-base",
-  "version": "1.0.7",
+  "version": "2.0.0",
   "description": "Our base for seneca services",
   "license": "MIT",
   "author": {
@@ -17,7 +17,7 @@
     "node": ">=4.4.7"
   },
   "scripts": {
-    "test": "standard && tap --reporter=spec test/*.js",
+    "test": "standard && nsp check && tap --reporter=spec test/*.js",
     "coverage": "tap test/*.js --coverage",
     "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
     "start": "node service.js",
@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "coveralls": "2.11.12",
+    "nsp": "2.6.1",
     "standard": "7.1.2",
     "tap": "6.3.0"
   },
