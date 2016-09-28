@@ -14,7 +14,7 @@
   "homepage": "https://github.com/telemark/tfk-seneca-base",
   "main": "service.js",
   "engines": {
-    "node": ">=4.5.0"
+    "node": ">=4.6.0"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/*.js",
