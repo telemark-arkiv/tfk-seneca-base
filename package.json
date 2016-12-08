@@ -1,6 +1,6 @@
 {
   "name": "tfk-seneca-base",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Our base for seneca services",
   "license": "MIT",
   "author": {
@@ -14,7 +14,7 @@
   "homepage": "https://github.com/telemark/tfk-seneca-base",
   "main": "service.js",
   "engines": {
-    "node": ">=4.6.1"
+    "node": ">=4.7.0"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
@@ -28,13 +28,13 @@
     "url": "git://github.com/telemark/tasks-collector.git"
   },
   "devDependencies": {
-    "coveralls": "2.11.14",
+    "coveralls": "2.11.15",
     "nsp": "2.6.2",
-    "standard": "8.4.0",
-    "tap": "7.1.2"
+    "standard": "8.6.0",
+    "tap": "8.0.1"
   },
   "dependencies": {
-    "seneca": "3.2.1",
+    "seneca": "3.2.2",
     "seneca-balance-client": "0.6.0",
     "seneca-entity": "1.3.0",
     "seneca-mesh": "0.9.0"
