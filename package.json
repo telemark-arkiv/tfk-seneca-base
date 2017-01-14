@@ -1,6 +1,6 @@
 {
   "name": "tfk-seneca-base",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Our base for seneca services",
   "license": "MIT",
   "author": {
